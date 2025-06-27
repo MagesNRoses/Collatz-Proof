@@ -1,6 +1,3 @@
-# Crear requirements.txt
-echo "numpy" > requirements.txt
-echo "matplotlib" >> requirements.txt
-echo "tqdm" >> requirements.txt
-echo "pandas" >> requirements.txt
-echo "jupyter" >> requirements.txt
+numpy>=1.26.0
+pandas>=2.2.3
+tqdm>=4.66.1

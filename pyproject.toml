@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=42"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "collatz-proof"
+version = "0.1.0"
+description = "Análisis del ABC-core en la Conjetura de Collatz"
+authors = [{name = "Tu Nombre", email = "tu@email.com"}]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "numpy",
+    "matplotlib",
+    "pandas",
+    "tqdm",
+    "scipy"
+]

@@ -1,0 +1,10 @@
+{
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "python.analysis.extraPaths": ["/workspaces/Collatz-Proof/src"]
+            }
+        }
+    },
+    "postCreateCommand": "pip install -e ."
+}
